@@ -27,7 +27,9 @@ public partial class ImportTestScript : Node
 		TextureRect questionImage = GetNode<TextureRect>(QuestionImage);
 		AudioStreamPlayer bgMusic = GetNode<AudioStreamPlayer>(BGMusic);
 
-		string filePath = "res://Assets/import_test.txt";
+		// Declare the location of the file to be read for the testing
+		string filePath = "res://Assets/import_test.txt"; 
+		//string filePath = "res://Assets/Dogs/dogs.txt";
 
 		if (FileAccess.FileExists(filePath))
 		{
@@ -47,6 +49,7 @@ public partial class ImportTestScript : Node
 			string imagePath = "res://Assets/" + result[8];
 			Texture2D imageTexture = GD.Load<Texture2D>(imagePath);
 			questionImage.Texture = imageTexture;
+			GD.Print(imagePath);
 
 			string musicPath = "res://Assets/" + result[9];
 			AudioStream musicStream = GD.Load<AudioStream>(musicPath);
