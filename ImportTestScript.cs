@@ -28,8 +28,9 @@ public partial class ImportTestScript : Node
 		AudioStreamPlayer bgMusic = GetNode<AudioStreamPlayer>(BGMusic);
 
 		// Declare the location of the file to be read for the testing
-		string filePath = "res://Assets/import_test.txt"; 
+		string filePath = "res://Assets/00Default/import_test.txt"; 
 		//string filePath = "res://Assets/Dogs/dogs.txt";
+		//string filePath = "res://Assets/Birds/birds.txt";
 
 		if (FileAccess.FileExists(filePath))
 		{
@@ -46,12 +47,12 @@ public partial class ImportTestScript : Node
 			answerCorrect.Text = result[6];
 			fact.Text = result[7];
 
-			string imagePath = "res://Assets/" + result[8];
+			string imagePath = "res://Assets/" + result[10];
 			Texture2D imageTexture = GD.Load<Texture2D>(imagePath);
 			questionImage.Texture = imageTexture;
 			GD.Print(imagePath);
 
-			string musicPath = "res://Assets/" + result[9];
+			string musicPath = "res://Assets/" + result[12];
 			AudioStream musicStream = GD.Load<AudioStream>(musicPath);
 			bgMusic.Stream = musicStream;
 			bgMusic.Play();
