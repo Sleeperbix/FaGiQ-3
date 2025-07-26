@@ -1,0 +1,35 @@
+{
+    "Global": {
+        "CategoryTitle": "Birds",
+        "BGImage": "Birds/Images/background-Birds.jpg",
+        "BGMusic": "Birds/Sounds/music-birds.mp3",
+        "SelectionSound": "Birds/Sounds/select-dogs.wav",
+        "ButtonTextColour": "#000000",
+        "ButtonBGColour": "#ede9d3"
+    },
+    "Questions": [
+        {
+            "QuestionText": "What is the scientific name of the Emperor Penguin?",
+            "AnswerA": "Diomedea exulans",
+            "AnswerB": "Aptenodytes forsteri",
+            "AnswerC": "Columba palumbus",
+            "AnswerD": "Gallus gallus domesticus",
+            "CorrectAnswer": "Aptenodytes forsteri",
+            "AnswerFact": "The Emperor Penguin (Aptenodytes forsteri) is the tallest and heaviest of all living penguin species and is endemic to Antarctica. The other answers were the Wandering Albatross (Diomedea exulans), the Common Wood Pigeon (Columba palumbus) and the Chicken (Gallus gallus domesticus)",
+            "QuestionImage": "Birds/Images/emperorpenguin.jpg",
+            "Tags": ["Birds", "Penguins", "Antarctica"]
+        },
+        {
+            "QuestionText": "What type of goose is pictured here?",
+            "AnswerA": "Canada Goose",
+            "AnswerB": "Embden Goose",
+            "AnswerC": "Grass Goose",
+            "AnswerD": "Pomeranian Goose",
+            "CorrectAnswer": "Canada Goose",
+            "AnswerFact": "The Canada Goose is a large goose, with a distinctive black head and neck, and large white throat patch. A species originally from North America, it has successfully spread to cover most of the UK. The Grass Goose does not exist, but Goosegrass is a common name for several types of grasses, sedges and annual herbs (including Sticky Weed).",
+            "QuestionImage": "Birds/Images/canadagoose.jpg",
+            "Tags": ["Birds", "Geese"]
+        }
+  
+    ]
+}

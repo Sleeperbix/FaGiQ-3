@@ -1,0 +1,34 @@
+{
+    "Global": {
+        "CategoryTitle": "Literature",
+        "BGImage": "Literature/Images/background-literature.jpg",
+        "BGMusic": "Literature/Sounds/music-literature.mp3",
+        "SelectionSound": "Literature/Sounds/select-literature.wav",
+        "ButtonTextColour": "#ffffff",
+        "ButtonBGColour": "#692717"
+    },
+    "Questions": [
+        {
+            "QuestionText": "Which Charles Dickens novel features the characters Pip, Magwitch and Estella?",
+            "AnswerA": "David Copperfield",
+            "AnswerB": "Great Expectations",
+            "AnswerC": "Oliver Twist",
+            "AnswerD": "Our Mutual Friend",
+            "CorrectAnswer": "Great Expectations",
+            "AnswerFact": "Published in 1861, Great Expectations is the 13th novel by English author Charles Dickens, and his penultimate completed novel.",
+            "QuestionImage": "Literature/Images/charlesdickens.jpg",
+            "Tags": ["Literature", "Charles Dickens"]
+        },
+        {
+            "QuestionText": "What was the first Agatha Christie novel to feature the character Hercule Poirot?",
+            "AnswerA": "Poirot Investigates",
+            "AnswerB": "The Murder on the Links",
+            "AnswerC": "The Mysterious Affair at Styles",
+            "AnswerD": "The Mystery of the Blue Train",
+            "CorrectAnswer": "The Mysterious Affair at Styles",
+            "AnswerFact": "Written in 1916 and published in 1920, The Mysterious Affair at Styles is the first detective novel by British writer Agatha Christie, introducing her fictional detective Hercule Poirot.",            
+            "QuestionImage": "Literature/Images/poirot.jpg",
+            "Tags": ["Literature", "Agatha Christie", "Poirot"]
+        }
+    ]
+}
